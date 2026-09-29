@@ -45,6 +45,7 @@
 # number = 1634
 # n = number
 
+
 # power = len(str(number))
 # total = 0
 # while n > 0:
