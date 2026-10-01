@@ -4,19 +4,22 @@
 # 3) Check pelindrom
 # 4) armstrong number
 
-
+import math
 # # Counting the digit
-# number  = 12424543234543
-# n = number
+number  = 12424543234543
+n = number
 # count = 0
 # while n > 0:
-#     digit = n % 10
-#     print(digit, end= "")
 #     n = n//10
 #     count += 1
 # print()
-# print("total count of that number is", count)
+# print("total count of that number is :-", count)
 
+# ++++++OR++++++++
+# def count_Number(number):
+#     return int(math.log10(number)+1)
+
+# print(count_Number(123457784884))
 
 # # Reversing the number 
 # number = 1234
