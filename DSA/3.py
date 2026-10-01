@@ -42,6 +42,20 @@ n = number
 # else:
 #     print("not an a pelindromic word")
 
+# +++++++OR ======
+# for the number
+
+def isPelindrom(num):
+    original  = num
+    result  = 0
+    while num > 0:
+        last_digit = num %10
+        result = result*10 + last_digit
+        num = num // 10
+    return original == result
+
+print(isPelindrom(121))
+
 
 # Checking the amstrong Number
 
