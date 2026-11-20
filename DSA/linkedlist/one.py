@@ -6,6 +6,7 @@ class Node:
 class Singlell:
     def __init__(self, head=None):
         self.head = head
+        
     def insertAtEnd(self, value):
         temp = Node(value)
         if self.head is not None:
